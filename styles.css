@@ -177,6 +177,7 @@ button:active {
 #highlights::after {
     bottom: 1px;
     transform: translateY(100%) rotate(180deg);
+    z-index: 3;
 }
 
 .highlight__wrapper {
@@ -235,5 +236,52 @@ button:active {
 #features {
       height: 1000px;
       background-color: rgba(115, 66, 214, 0.1);
-      
+      position: relative;
+}
+
+.books__wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    
+    
+}
+.books {
+  display: flex;
+  gap: 2rem;
+}
+
+.book__img--wrapper {
+    width: 100%;
+    height: 90%;
+}
+
+.book__img{
+    width: 100%;
+}
+
+.book__description {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 0 5px;
+}
+
+.book__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.book__ratings {
+    color:#dcb91f;
+}
+
+.book__price {
+
+}
+.book__price--normal {
+    color: #727174;
+    text-decoration: line-through;
+
 }
