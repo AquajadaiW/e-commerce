@@ -6,6 +6,8 @@
     font-family:'Roboto', sans-serif; 
 }
 
+
+/* Navigation */
 nav {
     height: 60px;
     display: flex;
@@ -43,7 +45,23 @@ li {
     padding: 8px;
 }
 
+.nav__link:hover {
+text-decoration: underline;
+}
+
 .nav__link--primary {
     border: 2px solid #7342d6;
     border-radius: 4px;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
+}
+
+#landing {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+header {
+    height: calc(100vh - 60px);
 }
