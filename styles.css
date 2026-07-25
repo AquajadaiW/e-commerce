@@ -285,10 +285,13 @@ button:active {
     color:#dcb91f;
 }
 
-.book__price {
-
-}
 .book__price--normal {
     color: #727174;
     text-decoration: line-through;
+}
+
+/* Latest Books */
+
+.latest__books--wrapper{
+    display: flex;
 }
