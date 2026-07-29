@@ -246,7 +246,10 @@ button:active {
 }
 .books {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .book__img--wrapper {
@@ -260,7 +263,7 @@ button:active {
 
 .book__img{
     width: 100%;
-    max-height: 320px;
+    max-height: 300px;
     transition: all 300ms ease;
     cursor: no-drop;
 }
@@ -290,34 +293,3 @@ button:active {
     text-decoration: line-through;
 }
 
-/* Latest Books */
-
-.latest__books--wrapper {
-    width: 100%;
-    max-width: 800px;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.latest__books {
-    display:flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 24px;
-    
-    
-}
-
-
-.latest__book--img__wrapper{
-    width:100%;
-    height: 85%;
-    margin-bottom: 8px;
-    border-radius: 4px;
-    overflow: hidden;
-    display: flex;
-}
-
-.latest__book--img {
-    height: 80%;
-}
