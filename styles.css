@@ -293,3 +293,25 @@ button:active {
     text-decoration: line-through;
 }
 
+/* Explore */
+
+#explore {
+    background-color: #7342d61a;
+   
+}
+
+.explore__btn--wrapper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.explore__btn {
+    font-size: 20px;
+    padding: 7px 20px;
+    background-color: #7342d6;
+    color:white;
+    border: none;
+    border-radius: 2px;
+}
